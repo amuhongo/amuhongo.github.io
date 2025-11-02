@@ -1,4 +1,5 @@
 [
+[
   {
     "nome": "amuhongo",
     "link": "https://github.com/amuhongo/amuhongo",
@@ -35,11 +36,6 @@
     "descricao": "Sem descrição"
   },
   {
-    "nome": "mysql-projeto-conceitual-bd-DIO",
-    "link": "https://github.com/amuhongo/mysql-projeto-conceitual-bd-DIO",
-    "descricao": "Refinando um Projeto Conceitual de Banco de Dados - E-Commerce (DIO._)"
-  },
-  {
     "nome": "port-scanner-python",
     "link": "https://github.com/amuhongo/port-scanner-python",
     "descricao": "Sem descrição"
@@ -49,4 +45,5 @@
     "link": "https://github.com/amuhongo/projecto",
     "descricao": "Sem descrição"
   }
+]
 ]
