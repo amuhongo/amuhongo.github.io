@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <h1 align="center">🚀 DevLinks - Meu Cartão Digital</h1>
 
 <p align="center">
@@ -15,7 +14,7 @@ agregador de links moderno e responsivo, para servir como cartão de visitas onl
 
 <p align="center">
   <img alt="Preview do projeto" src=".github/preview.jpg" width="100%">
-=======
+
 <h1 align="center">👋 Olá, eu sou Agostinho Muhongo Feliciano</h1>
 
 <p align="center">
@@ -25,7 +24,7 @@ agregador de links moderno e responsivo, para servir como cartão de visitas onl
 
 ---
 
-<<<<<<< HEAD
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -83,7 +82,7 @@ Inspirado com ♥ pela [Rocketseat](https://rocketseat.com.br/)
 ---
 
 > _"Aprendizado constante é a chave da evolução."_ – Agostinho M. Feliciano
-=======
+
 ### 🚀 Sobre mim
 
 Sou apaixonado por tecnologia, automação e segurança digital.
@@ -119,4 +118,4 @@ Atualmente, desenvolvo projetos em **Python**, estudo **Pentest e Ciberseguranç
 ---
 
 ⭐ *"A tecnologia é uma ferramenta poderosa — e o conhecimento é o que a torna revolucionária."*
->>>>>>> bc3b5848bfe5e6c6db8c083c8bce9a72a87104cc
+
