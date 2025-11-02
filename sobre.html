@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Agostinho Muhongo Feliciano | Portfólio</title>
+  <style>
+    /* ====== ESTILO BASE ====== */
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9fafb;
+      color: #333;
+      line-height: 1.6;
+      transition: background 0.3s ease;
+    }
+
+    /* ====== CABEÇALHO ====== */
+    header {
+      background-color: #1e293b;
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-top: 10px;
+      opacity: 0.9;
+    }
+
+    /* ====== NAVEGAÇÃO ====== */
+    nav {
+      margin-top: 15px;
+    }
+
+    nav a, nav button {
+      margin: 0 8px;
+      padding: 8px 14px;
+      border: none;
+      border-radius: 6px;
+      background-color: #3b82f6;
+      color: white;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover, nav button:hover {
+      background-color: #2563eb;
+    }
+
+    /* ====== CONTEÚDO ====== */
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 50px;
+      background: #fff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      border-left: 4px solid #3b82f6;
+      padding-left: 10px;
+      color: #1f2937;
+    }
+
+    /* ====== PROJETOS ====== */
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin-bottom: 12px;
+    }
+
+    a {
+      color: #2563eb;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* ====== HABILIDADES ====== */
+    .skills span {
+      display: inline-block;
+      background: #e2e8f0;
+      padding: 8px 14px;
+      margin: 5px;
+      border-radius: 6px;
+      font-weight: 500;
+      transition: background 0.3s;
+    }
+
+    .skills span:hover {
+      background: #d1d5db;
+    }
+
+    /* ====== FORMULÁRIO ====== */
+    .formulario {
+      background: #f1f5f9;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+    }
+
+    .formulario input,
+    .formulario textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+
+    .formulario button {
+      padding: 10px 20px;
+      background-color: #3b82f6;
+      border: none;
+      color: white;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .formulario button:hover {
+      background-color: #2563eb;
+    }
+
+    /* ====== RODAPÉ ====== */
+    footer {
+      background-color: #1e293b;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer a {
+      color: #3b82f6;
+      margin: 0 6px;
+    }
+
+    /* ====== RESPONSIVO ====== */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+      section {
+        padding: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Agostinho Muhongo Feliciano</h1>
+    <p>Desenvolvedor Python & Especialista em Cibersegurança</p>
+    <nav>
+      <a href="index.html">Início</a>
+      <button onclick="setLanguage('pt')">PT</button>
+      <button onclick="setLanguage('en')">EN</button>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="sobre">
+      <h2>Sobre mim</h2>
+      <p class="pt">
+        Sou um profissional apaixonado por programação e segurança cibernética. Tenho experiência com Python, bancos de dados MySQL e sistemas Linux como Ubuntu, Kali Linux e Parrot OS.  
+        Busco constantemente aprimorar minhas habilidades e desenvolver soluções que impactem positivamente a sociedade.
+      </p>
+      <p class="en" style="display:none;">
+        I'm a professional passionate about programming and cybersecurity. I have experience with Python, MySQL databases, and Linux systems such as Ubuntu, Kali Linux, and Parrot OS.  
+        I'm always seeking to improve my skills and create solutions that make a real difference.
+      </p>
+    </section>
+
+    <section id="projetos">
+      <h2 class="pt">Projetos</h2>
+      <h2 class="en" style="display:none;">Projects</h2>
+      <ul>
+        <li><a href="https://github.com/amuhongo/port-scanner-python" target="_blank">Scanner de Portas em Python</a></li>
+        <li><a href="https://github.com/amuhongo/linux-backup-script" target="_blank">Script de Backup no Linux</a></li>
+        <li><a href="https://github.com/amuhongo/mysql-cli-tool" target="_blank">Ferramenta CLI para MySQL</a></li>
+      </ul>
+    </section>
+
+    <section id="habilidades">
+      <h2 class="pt">Habilidades</h2>
+      <h2 class="en" style="display:none;">Skills</h2>
+      <div class="skills">
+        <span>Python</span>
+        <span>MySQL</span>
+        <span>Kali Linux</span>
+        <span>Ubuntu</span>
+        <span>Parrot OS</span>
+        <span>Automação</span>
+        <span>Cibersegurança</span>
+      </div>
+    </section>
+
+    <section id="curriculo">
+      <h2 class="pt">Currículo</h2>
+      <h2 class="en" style="display:none;">Resume</h2>
+      <p class="pt">
+        📄 <a href="Curriculo_Agostinho_Feliciano_Moderno.pdf" target="_blank">Baixar meu currículo em PDF</a>
+      </p>
+      <p class="en" style="display:none;">
+        📄 <a href="Curriculo_Agostinho_Feliciano_Moderno.pdf" target="_blank">Download my resume (PDF)</a>
+      </p>
+    </section>
+
+    <section id="contato">
+      <h2 class="pt">Contato</h2>
+      <h2 class="en" style="display:none;">Contact</h2>
+      <form action="https://formsubmit.co/agostinhomuhongofeliciano@gmail.com" method="POST" class="formulario">
+        <input type="text" name="name" placeholder="Seu nome / Your name" required>
+        <input type="email" name="email" placeholder="Seu email / Your email" required>
+        <textarea name="message" rows="5" placeholder="Sua mensagem / Your message" required></textarea>
+        <button type="submit">Enviar / Send</button>
+      </form>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 Agostinho Muhongo Feliciano | Portfólio pessoal</p>
+    <p>
+      <a href="https://github.com/amuhongo" target="_blank">GitHub</a> •
+      <a href="https://www.linkedin.com/in/agostinho-muhongo-feliciano-3b49352b3/" target="_blank">LinkedIn</a>
+    </p>
+  </footer>
+
+  <script>
+    function setLanguage(lang) {
+      document.querySelectorAll('.pt').forEach(el => el.style.display = lang === 'pt' ? 'block' : 'none');
+      document.querySelectorAll('.en').forEach(el => el.style.display = lang === 'en' ? 'block' : 'none');
+    }
+  </script>
+</body>
+</html>
